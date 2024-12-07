@@ -1,6 +1,26 @@
 /**/
+@font-face {
+    font-family: 'Inter';
+    src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/**/
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
     color: white;
 }
 /**/
@@ -13,7 +33,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    Font-size: 14px;
 }
 /*card*/
 .card{
@@ -37,6 +56,8 @@ body{
 }
 /*perfil image*/
 .perfil{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 /**/
@@ -45,11 +66,28 @@ body{
     text-align: center;
 }
 /**/
-h3{
+h1{
+    margin-bottom: 10px;
+    font-family: 'inter';
+    font-weight: 700;
+}
+/**/
+h4{
+    margin-top: 10px;
     color: hsl(75, 94%, 57%);
+    font-family: 'inter';
+    font-weight: 600;
+}
+/**/
+p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'inter';
+    font-weight: 400;
 }
 /**/
 ul{
+    margin-top: 5px;
     padding-left: 0;
 }
 /**/
@@ -58,19 +96,54 @@ li{
     margin-top: 10px;
     margin-bottom: 10px;
     list-style-type: none;
-    
 }
 /**/
 button{
+    margin-top: 10px;
+    font-size: 14px;
     background-color: hsl(0, 0%, 20%);
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 5%;
     border: none;
-    font-weight: bold;
+    font-family: 'inter';
+    font-weight: 600;
+}
+/**/
+.end{
+    margin-bottom: 15px;
 }
 /**/
 button:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+/**/
+@media (max-width: 375px) {
+    /**/
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /**/
+    .card{
+        width: 85%;
+        height: 90%;
+        margin-top: 15%;
+        margin-bottom: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /**/
+    button{
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 90%;
+    }
 }
