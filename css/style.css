@@ -1,4 +1,4 @@
-/**/
+/*fonts*/
 @font-face {
     font-family: 'Inter';
     src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
@@ -17,13 +17,13 @@
     font-weight: 700;
     font-style: normal;
 }
-/**/
+/*attribution*/
 .attribution { 
     font-size: 11px; 
     text-align: center; 
     color: white;
 }
-/**/
+/*attribution a*/
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
@@ -36,8 +36,8 @@ body{
 }
 /*card*/
 .card{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     padding-top: 50px;
     padding-bottom: 30px;
     background-color: hsl(0, 0%, 12%);
@@ -48,7 +48,7 @@ body{
     align-items: center;
     border-radius: 3%;
 }
-/**/
+/*body image*/
 .bodyimage{
     display: flex;
     justify-content: center;
@@ -60,44 +60,44 @@ body{
     height: 100px;
     border-radius: 50%;
 }
-/**/
+/*color and text bodycard and buttons*/
 .bodycard, button{
     color: hsl(0, 0%, 100%);
     text-align: center;
 }
-/**/
+/*h1*/
 h1{
     margin-bottom: 10px;
     font-family: 'inter';
     font-weight: 700;
 }
-/**/
+/*h4*/
 h4{
     margin-top: 10px;
     color: hsl(75, 94%, 57%);
     font-family: 'inter';
     font-weight: 600;
 }
-/**/
+/*paragraphs*/
 p{
     margin-top: 30px;
     margin-bottom: 15px;
     font-family: 'inter';
     font-weight: 400;
 }
-/**/
+/*ul*/
 ul{
     margin-top: 5px;
     padding-left: 0;
 }
-/**/
+/*li*/
 li{
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 10px;
     list-style-type: none;
 }
-/**/
+/*buttons*/
 button{
     margin-top: 10px;
     font-size: 14px;
@@ -109,25 +109,25 @@ button{
     font-family: 'inter';
     font-weight: 600;
 }
-/**/
+/*end button*/
 .end{
     margin-bottom: 15px;
 }
-/**/
+/*button:hover*/
 button:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
     cursor: pointer;
 }
-/**/
+/*mobile*/
 @media (max-width: 375px) {
-    /**/
+    /*body*/
     body{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    /**/
+    /*card*/
     .card{
         width: 85%;
         height: 90%;
@@ -140,7 +140,7 @@ button:hover{
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    /**/
+    /*buttons*/
     button{
         margin-left: 15px;
         margin-right: 10px;
